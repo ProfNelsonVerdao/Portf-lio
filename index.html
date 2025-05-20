@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/Nelson.jpeg" alt="avatar Nelson" class="rounded-circle" width="200" height="200"
+            srcset="">
+        <p class="lead">Eu sou Nelson</p>
+        <h1>Sou professor na Escola EE Dr. Geraldo Pereira de Barros (EMTI)</h1>
+        <p>Sou formado em Química, Matemática e Pedagogia, dou aulas na escola desde 2010, este ano, ministro aulas na escola no ensino médio na escola para todas as salas, com aulas de Robótica, Programação, Química Aplicada e Práticas Experimentais.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">Química</p>
+            <p class="badge bg-secondary">Física</p>
+            <p class="badge bg-secondary">Matemática</p>
+            <p class="badge bg-secondary">Biologia</p>
+            <p class="badge bg-secondary">Tecnologia</p>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2>Minhas Aulas</h2>
+        
+        <div class="row">
+
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/programacao.png" class="card-img-top" alt="Programação">
+                    <div class="card-body">
+                        <h5 class="card-title">Programação</h5>
+                        <p class="card-text">Será destinado aos projetos realizados durante as aulas de programação.
+                        </p>
+                        <button 
+                        type="button" 
+                        class="btn btn-link" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#modal1"
+                        >
+                        Veja o projeto
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/robótica.jpeg" class="card-img-top" alt="Programação">
+                    <div class="card-body">
+                        <h5 class="card-title">Robótica</h5>
+                        <p class="card-text">Será destinado aos projetos realizados durante as aulas de Robótica.</p>
+                        <button type="button" 
+                        class="btn btn-link" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#modal2"
+                        >
+                        Veja o projeto
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/PE.jpeg" class="card-img-top" alt="Praticas Experimentais">
+                    <div class="card-body">
+                        <h5 class="card-title">Química Aplicada
+                        </h5>
+                        <p class="card-text">Será destinado aos projetos realizados durante as aulas de Praticas Experimentais.
+                        </p>
+                        <button 
+                        type="button" 
+                        class="btn btn-link" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#modal3"
+                        >
+                        Veja as Praticas
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 4 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/quimimaticando.jpg" class="card-img-top" alt="Quimimaticando na Cozinha">
+                    <div class="card-body">
+                        <h5 class="card-title">Quimimaticando na Cozinha
+                        </h5>
+                        <p class="card-text">Será destinado as aulas da eletiva Quimimaticando na Cozinha em parceiria com a professora Meiriele.</p>
+                        <button 
+                        type="button" 
+                        class="btn btn-link" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#modal4"
+                        >
+                        Veja as Aulas
+                        </button>
+                    </div>
+                </div>
+            </div>
+       
+        </div>     
+    
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center">Projetos Realizados Durante as Aulas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p>Mostrar um pouco dos projetos realizado durante as aulas de programação.</p>
+                    <img src="img/vscode.jpg" class="img-fluid w-100"
+                        alt="VS Code">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/nelsonsantossilva/sketches/BmvKnAomm">Projeto Corrida Parte 2</a>
+                    <a href="https://editor.p5js.org/nelsonsantossilva/sketches/P5TaBhgOu">Projeto Quente-Frio</a>
+                    <a href="https://editor.p5js.org/nelsonsantossilva/sketches/zKQQyvAuZ">Projeto Rosto com Figuras Geométricas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projetos Realizados Durante as Aulas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p>Mostrar um pouco dos projetos das aulas de robótica utilizando makecode e o microbit</p>
+                    <img src="img/makecode.jpg" class="img-fluid w-100"
+                        alt="Make Code">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://makecode.microbit.org/S81690-10947-17408-17821">Pedra Papel Tesoura</a>
+                    <a href="https://makecode.microbit.org/S78102-79533-33495-37110">Termômetro Dinâmico</a>
+                    <a href="https://makecode.microbit.org/S34664-19437-73485-98513">Analisador de Espectro</a>
+                    <a href="https://makecode.microbit.org/S14114-06865-79028-78431">Letra Inicial</a> 
+                    <a href="https://makecode.microbit.org/S60867-10566-74710-99307">Stopmotion em Pixel</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Práticas Realizadas durante as aulas.</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                     <div class="modal-body text-center">
+                <p>Será mostrado algumas práticas realizadas durante as aulas de práticas experimentais em parceria com o professor Josemar</p>
+                    <img src="" alt="" class="img-fluid w-100">
+                     </div>
+                         <div class="modal-footer">
+                             <a href="https://www.facebook.com/nelson.silva.603886/posts/pfbid0zNm3JBhSdhojdTzr2DV5eVW3dCx4YqDZkbfupHC6rJgiPp8Ja7WEN7BdFNrxX7yTl">Extração DNA Morango</a>
+                             <a href="https://www.facebook.com/nelson.silva.603886/posts/pfbid02uCRwgPdxLqz75hUTG1ncGoWeXGuHfJa72k9HoHuMGqtJExP3q5FExm6fFCFLsNE4l">Bingo Genética</a>
+                             <a href="https://www.facebook.com/nelson.silva.603886/posts/pfbid02VFiQW2nhMfdQThREGASc2SkkEURnZ1EyWddK7P3RZsRwVCCm7PtsHpfuY1QoM5Ehl">Indicadores pH</a>
+                        </div>
+            </div>
+        </div>
+    </div> 
+
+    <!-- Modal 4 -->
+    <div class="modal" id="modal4" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Práticas Realizadas durante as aulas.</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                     <div class="modal-body text-center">
+                <p>Será mostrado algumas práticas realizadas durante as aulas de práticas experimentais em parceria com o professor Josemar</p>
+                    <img src="/img/quimimaticando.jpg" alt="" class="img-fluid w-100">
+                     </div>
+                         <div class="modal-footer">
+                             <a href="https://www.facebook.com/nelson.silva.603886/posts/pfbid02fmsXfa8dzkX4WpRvK4ndfrL4r9fWFG7P9VWUym5LybhkhexiuAsRk13KU7nhDeYrl">Fermentação</a>
+                             <a href="https://www.facebook.com/nelson.silva.603886/posts/pfbid0eaR3fu28zBcfUG28qYbKktHGDahdzDZYN9UG5BTojaZUcd8aberSFngDruZSVMtEl">Caramelização</a>
+                             <a href="https://www.facebook.com/nelson.silva.603886/posts/pfbid0333Q91UDx6MonocvZxZxt3zkUvyGqt787KUPLFzgX9gSG1Ph6tAVPXQCT7HpW9oZUl">Salário Nominal e Salário Minimo</a>
+                             <a href="https://www.facebook.com/nelson.silva.603886/posts/pfbid0JopQArRECDkzB2cAWnTd3NUkWgXTJkguFFf2M8YtTU8oqvkxXeV4CCpP7Hi7Hoabl">Emulsificação</a>
+
+                        </div>
+            </div>
+        </div>
+    </div> 
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-whatsapp"></i>
+            <p>(14)99899-1329</p>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Nelson dos Santos da Silva</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
